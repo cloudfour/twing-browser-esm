@@ -8,7 +8,9 @@
   "files": [
     "dist/index.mjs"
   ],
-  "scripts": {},
+  "scripts": {
+    "build": "node build.mjs"
+  },
   "keywords": [
     "twing"
   ],
