@@ -5,7 +5,9 @@
   "exports": {
     "import": "dist/index.mjs"
   },
-  "files": "dist/index.mjs",
+  "files": [
+    "dist/index.mjs"
+  ],
   "scripts": {},
   "keywords": [
     "twing"
