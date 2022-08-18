@@ -1,0 +1,31 @@
+{
+  "name": "@cloudfour/twing-browser-esm",
+  "version": "5.1.1",
+  "description": "",
+  "exports": {
+    "import": "dist/index.mjs"
+  },
+  "files": "dist/index.mjs",
+  "scripts": {},
+  "keywords": [
+    "twing"
+  ],
+  "author": "Cloud Four",
+  "license": "MIT",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "esbuild": "^0.15.3",
+    "events": "^3.3.0",
+    "fast-json-stable-stringify": "^2.1.0",
+    "prettier": "^2.7.1",
+    "rollup": "^2.78.0",
+    "twing": "5.1.1"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
